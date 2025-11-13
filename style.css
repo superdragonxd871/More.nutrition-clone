@@ -572,3 +572,161 @@ nav {
     left: 80%;
     rotate: -10deg;
 }
+
+.sevenpart {
+    height: 100vh;
+    background-color: #e8efe4;
+    display: flex;
+    justify-content: center;
+    font-family: 'Regular';
+}
+
+.sevenout {
+    height: 98%;
+    width: 98%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+}
+
+.sevenleft {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sevenright {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width:45%;
+    height: 100%;
+    background-color: #fff;
+    padding-left: 10%;
+    gap: 2rem;
+}
+
+.smile {
+    position: absolute;
+    z-index: 1;
+    left: 48%;
+    top: -40px;
+}
+
+.potbackground {
+    height: 98%;
+    width: 98%;
+    position: absolute;
+    border-radius: 5px;
+}
+
+#svg-lft-five {
+    height: 98%;
+    width: 98%;
+    position: absolute;
+    z-index: 1;
+}
+
+.pot {
+    height: 98%;
+    width: 98%;
+    position: absolute;
+    z-index: 2;
+}
+
+.sevenhead {
+    line-height: 70px;
+}
+
+.h1 {
+    font-size: 5.2rem;
+    text-align: left;
+    text-transform: initial;
+    color: #90b96d;
+    font-weight: 600;
+}
+
+.h2 {
+    font-size: 5.2rem;
+    text-align: left;
+    text-transform: initial;
+    color: #1e4b1a;
+    font-weight: 600;
+}
+
+.sevenright table {
+    border-collapse: collapse;
+}
+
+table {
+    display: table;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+    border-bottom: 2px solid #e6eee2;
+}
+
+.dark-border {
+    border-bottom: 2px solid #1e4b1a;
+}
+
+.benfits-t {
+    font-size: 1.3rem;
+    color: #90b96d;
+}
+
+.sevenright table td img {
+    width: 80px;
+}
+
+tr td {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #1e4b1a;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+
+tr td:nth-child(2) {
+    padding-left: 100px;
+}
+
+td .ri-check-line {
+    padding: 10px 30px;
+    background-color: #e6eee2;
+    border-radius: 10px;
+    color: #1e4b1a;
+}
+
+tr td:nth-child(3) {
+    padding-left: 20px;
+}
+
+td .ri-close-line {
+    padding: 10px 30px;
+}
